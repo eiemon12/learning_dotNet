@@ -77,3 +77,7 @@ D:\AIUB\11th semester\.NET\Works\learning_dotNet\firstWebsite\firstWebsite\obj\D
 D:\AIUB\11th semester\.NET\Works\learning_dotNet\firstWebsite\firstWebsite\obj\Debug\firstWeb.BB5EA370.Up2Date
 D:\AIUB\11th semester\.NET\Works\learning_dotNet\firstWebsite\firstWebsite\obj\Debug\firstWebsite.dll
 D:\AIUB\11th semester\.NET\Works\learning_dotNet\firstWebsite\firstWebsite\obj\Debug\firstWebsite.pdb
+D:\AIUB\11th semester\.NET\Works\learning_dotNet\firstWebsite\firstWebsite\bin\EntityFramework.dll
+D:\AIUB\11th semester\.NET\Works\learning_dotNet\firstWebsite\firstWebsite\bin\EntityFramework.SqlServer.dll
+D:\AIUB\11th semester\.NET\Works\learning_dotNet\firstWebsite\firstWebsite\bin\EntityFramework.xml
+D:\AIUB\11th semester\.NET\Works\learning_dotNet\firstWebsite\firstWebsite\bin\EntityFramework.SqlServer.xml

@@ -15,7 +15,7 @@ namespace Blog_Site.EF
     public partial class Comment
     {
         public int CId { get; set; }
-        public string Comment1 { get; set; }
+        public string Cmnt { get; set; }
         public System.DateTime PostTime { get; set; }
         public int BlogId { get; set; }
     

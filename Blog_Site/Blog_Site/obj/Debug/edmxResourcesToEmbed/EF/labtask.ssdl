@@ -7,7 +7,6 @@
     <Property Name="BId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Title" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="Description" Type="varchar" MaxLength="50" Nullable="false" />
-    <Property Name="Tag" Type="varchar" MaxLength="50" />
     <Property Name="Time" Type="datetime" Nullable="false" />
     <Property Name="UId" Type="int" Nullable="false" />
   </EntityType>
@@ -16,7 +15,7 @@
       <PropertyRef Name="CId" />
     </Key>
     <Property Name="CId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Comment" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Cmnt" Type="varchar" MaxLength="50" Nullable="false" />
     <Property Name="PostTime" Type="datetime" Nullable="false" />
     <Property Name="BlogId" Type="int" Nullable="false" />
   </EntityType>

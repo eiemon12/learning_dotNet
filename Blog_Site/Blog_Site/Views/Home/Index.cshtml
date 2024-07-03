@@ -1,4 +1,27 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-
+<div class="container mt-5">
+    <div class="alert alert-primary">
+        <h3 class="text-center">Blogs</h3>
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Post Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Title</td>
+                        <td>@item.Description</td>
+                        <td>@item.Time</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

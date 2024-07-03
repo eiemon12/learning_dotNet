@@ -4,7 +4,6 @@
     <EntitySetMapping Name="Blogs">
       <EntityTypeMapping TypeName="labtaskModel.Blog">
         <MappingFragment StoreEntitySet="Blogs">
-          <ScalarProperty Name="Tag" ColumnName="Tag" />
           <ScalarProperty Name="BId" ColumnName="BId" />
           <ScalarProperty Name="Title" ColumnName="Title" />
           <ScalarProperty Name="Description" ColumnName="Description" />
@@ -17,7 +16,7 @@
       <EntityTypeMapping TypeName="labtaskModel.Comment">
         <MappingFragment StoreEntitySet="Comments">
           <ScalarProperty Name="CId" ColumnName="CId" />
-          <ScalarProperty Name="Comment1" ColumnName="Comment" />
+          <ScalarProperty Name="Cmnt" ColumnName="Cmnt" />
           <ScalarProperty Name="PostTime" ColumnName="PostTime" />
           <ScalarProperty Name="BlogId" ColumnName="BlogId" />
         </MappingFragment>
@@ -26,7 +25,6 @@
     <EntitySetMapping Name="Users">
       <EntityTypeMapping TypeName="labtaskModel.User">
         <MappingFragment StoreEntitySet="Users">
-          <ScalarProperty Name="UserType" ColumnName="UserType" />
           <ScalarProperty Name="UId" ColumnName="UId" />
           <ScalarProperty Name="Name" ColumnName="Name" />
           <ScalarProperty Name="Email" ColumnName="Email" />
@@ -34,6 +32,7 @@
           <ScalarProperty Name="Password" ColumnName="Password" />
           <ScalarProperty Name="Dob" ColumnName="Dob" />
           <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

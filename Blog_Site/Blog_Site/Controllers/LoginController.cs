@@ -6,6 +6,7 @@ using System.Linq;
 using System.Security.Policy;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace Blog_Site.Controllers
 {
@@ -16,14 +17,11 @@ namespace Blog_Site.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            if (Request["ReturnUrl"] != null)
-            {
-                ViewBag.URL = Request["ReturnUrl"];
-            }
-            return View(new LoginDTO());
+           
+            return View();
         }
         [HttpPost]
-        public ActionResult Index(LoginDTO l, string URL)
+        public ActionResult Index(LoginDTO l)
         {
             if (ModelState.IsValid)
             {
@@ -42,12 +40,24 @@ namespace Blog_Site.Controllers
                 {
                     return RedirectToAction("Index", "Admin");
                 }
-                if (user.UserType.Equals("User"))
+                else if (user.UserType.Equals("User"))
                 {
                     return RedirectToAction("Index", "User");
                 }
             }
             return View(l);
+        }
+
+        public ActionResult Logout()
+        {
+          
+            FormsAuthentication.SignOut(); // Sign out the user
+
+            // Optionally, clear session or any other user-specific data
+            Session.Clear();
+
+            // Redirect to the login page or home page after logout
+            return RedirectToAction("Index", "Home");
         }
     }
 }

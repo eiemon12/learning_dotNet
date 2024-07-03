@@ -25,7 +25,6 @@ namespace Blog_Site.EF
         public string Description { get; set; }
         public System.DateTime Time { get; set; }
         public int UId { get; set; }
-        public string Tag { get; set; }
     
         public virtual User User { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

@@ -11,14 +11,13 @@
     <Property Name="UId" Type="Int32" Nullable="false" />
     <NavigationProperty Name="User" Relationship="Self.FK_Blogs_User" FromRole="Blogs" ToRole="Users" />
     <NavigationProperty Name="Comments" Relationship="Self.FK_Comments_Blogs" FromRole="Blogs" ToRole="Comments" />
-    <Property Name="Tag" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityType Name="Comment">
     <Key>
       <PropertyRef Name="CId" />
     </Key>
     <Property Name="CId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Comment1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Cmnt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="PostTime" Type="DateTime" Nullable="false" Precision="3" />
     <Property Name="BlogId" Type="Int32" Nullable="false" />
     <NavigationProperty Name="Blog" Relationship="Self.FK_Comments_Blogs" FromRole="Comments" ToRole="Blogs" />
@@ -34,8 +33,8 @@
     <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Dob" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <NavigationProperty Name="Blogs" Relationship="Self.FK_Blogs_User" FromRole="Users" ToRole="Blogs" />
-    <Property Name="UserType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
   </EntityType>
   <Association Name="FK_Blogs_User">
     <End Role="Users" Type="Self.User" Multiplicity="1" />

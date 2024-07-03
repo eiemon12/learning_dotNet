@@ -12,7 +12,6 @@
           <Property Name="BId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Title" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="Description" Type="varchar" MaxLength="50" Nullable="false" />
-          <Property Name="Tag" Type="varchar" MaxLength="50" />
           <Property Name="Time" Type="datetime" Nullable="false" />
           <Property Name="UId" Type="int" Nullable="false" />
         </EntityType>
@@ -21,7 +20,7 @@
             <PropertyRef Name="CId" />
           </Key>
           <Property Name="CId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Comment" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Cmnt" Type="varchar" MaxLength="50" Nullable="false" />
           <Property Name="PostTime" Type="datetime" Nullable="false" />
           <Property Name="BlogId" Type="int" Nullable="false" />
         </EntityType>
@@ -90,14 +89,13 @@
           <Property Name="UId" Type="Int32" Nullable="false" />
           <NavigationProperty Name="User" Relationship="Self.FK_Blogs_User" FromRole="Blogs" ToRole="Users" />
           <NavigationProperty Name="Comments" Relationship="Self.FK_Comments_Blogs" FromRole="Blogs" ToRole="Comments" />
-          <Property Name="Tag" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityType Name="Comment">
           <Key>
             <PropertyRef Name="CId" />
           </Key>
           <Property Name="CId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Comment1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Cmnt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="PostTime" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="BlogId" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Blog" Relationship="Self.FK_Comments_Blogs" FromRole="Comments" ToRole="Blogs" />
@@ -113,8 +111,8 @@
           <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Dob" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <Property Name="Gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="UserType" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
           <NavigationProperty Name="Blogs" Relationship="Self.FK_Blogs_User" FromRole="Users" ToRole="Blogs" />
-          <Property Name="UserType" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
         <Association Name="FK_Blogs_User">
           <End Role="Users" Type="Self.User" Multiplicity="1" />
@@ -162,7 +160,6 @@
           <EntitySetMapping Name="Blogs">
             <EntityTypeMapping TypeName="labtaskModel.Blog">
               <MappingFragment StoreEntitySet="Blogs">
-                <ScalarProperty Name="Tag" ColumnName="Tag" />
                 <ScalarProperty Name="BId" ColumnName="BId" />
                 <ScalarProperty Name="Title" ColumnName="Title" />
                 <ScalarProperty Name="Description" ColumnName="Description" />
@@ -175,7 +172,7 @@
             <EntityTypeMapping TypeName="labtaskModel.Comment">
               <MappingFragment StoreEntitySet="Comments">
                 <ScalarProperty Name="CId" ColumnName="CId" />
-                <ScalarProperty Name="Comment1" ColumnName="Comment" />
+                <ScalarProperty Name="Cmnt" ColumnName="Cmnt" />
                 <ScalarProperty Name="PostTime" ColumnName="PostTime" />
                 <ScalarProperty Name="BlogId" ColumnName="BlogId" />
               </MappingFragment>
@@ -184,7 +181,6 @@
           <EntitySetMapping Name="Users">
             <EntityTypeMapping TypeName="labtaskModel.User">
               <MappingFragment StoreEntitySet="Users">
-                <ScalarProperty Name="UserType" ColumnName="UserType" />
                 <ScalarProperty Name="UId" ColumnName="UId" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
                 <ScalarProperty Name="Email" ColumnName="Email" />
@@ -192,6 +188,7 @@
                 <ScalarProperty Name="Password" ColumnName="Password" />
                 <ScalarProperty Name="Dob" ColumnName="Dob" />
                 <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="UserType" ColumnName="UserType" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

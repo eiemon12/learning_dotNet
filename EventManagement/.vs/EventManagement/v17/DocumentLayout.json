@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|d:\\aiub\\11th semester\\.net\\works\\learning_dotnet\\eventmanagement\\eventmanagement\\auth\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|solutionrelative:eventmanagement\\auth\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|d:\\aiub\\11th semester\\.net\\works\\learning_dotnet\\eventmanagement\\eventmanagement\\auth\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|solutionrelative:eventmanagement\\auth\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|d:\\aiub\\11th semester\\.net\\works\\learning_dotnet\\eventmanagement\\eventmanagement\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|solutionrelative:eventmanagement\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|d:\\aiub\\11th semester\\.net\\works\\learning_dotnet\\eventmanagement\\eventmanagement\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|solutionrelative:eventmanagement\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|d:\\aiub\\11th semester\\.net\\works\\learning_dotnet\\eventmanagement\\eventmanagement\\views\\event\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|solutionrelative:eventmanagement\\views\\event\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|d:\\aiub\\11th semester\\.net\\works\\learning_dotnet\\eventmanagement\\eventmanagement\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|solutionrelative:eventmanagement\\views\\event\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|d:\\aiub\\11th semester\\.net\\works\\learning_dotnet\\eventmanagement\\eventmanagement\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|solutionrelative:eventmanagement\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|d:\\aiub\\11th semester\\.net\\works\\learning_dotnet\\eventmanagement\\eventmanagement\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|solutionrelative:eventmanagement\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|d:\\aiub\\11th semester\\.net\\works\\learning_dotnet\\eventmanagement\\eventmanagement\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|solutionrelative:eventmanagement\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|d:\\aiub\\11th semester\\.net\\works\\learning_dotnet\\eventmanagement\\eventmanagement\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47856451-9EC4-46EC-91AF-A9FA36CC321F}|EventManagement\\EventManagement.csproj|solutionrelative:eventmanagement\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\Views\\Event\\Details.cshtml",
+              "RelativeDocumentMoniker": "EventManagement\\Views\\Event\\Details.cshtml",
+              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\Views\\Event\\Details.cshtml",
+              "RelativeToolTip": "EventManagement\\Views\\Event\\Details.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T09:22:51.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\Views\\Event\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EventManagement\\Views\\Event\\Edit.cshtml",
+              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\Views\\Event\\Edit.cshtml",
+              "RelativeToolTip": "EventManagement\\Views\\Event\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T09:10:49.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\Auth\\Admin.cs",
+              "RelativeDocumentMoniker": "EventManagement\\Auth\\Admin.cs",
+              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\Auth\\Admin.cs",
+              "RelativeToolTip": "EventManagement\\Auth\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T08:35:59.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\Auth\\User.cs",
+              "RelativeDocumentMoniker": "EventManagement\\Auth\\User.cs",
+              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\Auth\\User.cs",
+              "RelativeToolTip": "EventManagement\\Auth\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T08:35:35.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\Views\\Event\\Create.cshtml",
+              "RelativeDocumentMoniker": "EventManagement\\Views\\Event\\Create.cshtml",
+              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\Views\\Event\\Create.cshtml",
+              "RelativeToolTip": "EventManagement\\Views\\Event\\Create.cshtml",
+              "ViewState": "AQIAABsAAABgZmZmZmYkwCoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T08:14:52.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\Views\\Event\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventManagement\\Views\\Event\\Index.cshtml",
+              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\Views\\Event\\Index.cshtml",
+              "RelativeToolTip": "EventManagement\\Views\\Event\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T08:04:58.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "EventManagement\\Controllers\\EventController.cs",
+              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\Controllers\\EventController.cs",
+              "RelativeToolTip": "EventManagement\\Controllers\\EventController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwDMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T08:01:20.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventDTO.cs",
+              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\DTOs\\EventDTO.cs",
+              "RelativeDocumentMoniker": "EventManagement\\DTOs\\EventDTO.cs",
+              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\DTOs\\EventDTO.cs",
+              "RelativeToolTip": "EventManagement\\DTOs\\EventDTO.cs",
+              "ViewState": "AQIAAAsAAACgmZmZmZkxwBUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:52:13.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "EventManagement\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "EventManagement\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T07:45:47.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "EventManagement\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "D:\\AIUB\\11th semester\\.NET\\Works\\learning_dotNet\\EventManagement\\EventManagement\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "EventManagement\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AQIAABMAAAAAMzMzMzMDwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T07:49:16.7Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
